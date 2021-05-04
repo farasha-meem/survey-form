@@ -1,0 +1,1 @@
+This is a page demonstrating a survey form in order to submit opinions of the site.
