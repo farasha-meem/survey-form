@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<html>
+<body>
+
+<h1 id="title"> Survey Form </h1>
+
+<p id="description"> This is a survey form page to submit your opinions of this website. </p>
+
+<form id="survey-form">
+  <label id="name-label" for="name"> Name </label>
+  <input id="name" name="name" type="text" placeholder="Enter name" required>
+  <label id="email-label" for="email"> E-mail </label>
+  <input id="email" name="email" type="email" placeholder="Enter email" required>
+  <label id="number-label" for="number"> Rating </label>
+  <input id="number" name="number" type="number" placeholder="Enter rating" min="0" max="10">
+  
+  <label for="dropdown"> Website Category </label>
+  <select id="dropdown" name="dropdown">
+  <option value="form"> Form </option>
+    <option value="tribute">Tribute Page</option>
+    <option value="tribute">Retail Company</option>
+</select>
+  
+  <label for="satisfaction">
+    Satisfaction Level
+  </label>
+  <input type="radio" name="satisfaction"value="very-satisfied">
+  <input type="radio" name="satisfaction" value="slightly-satisfied"> 
+  <input type="radio" name="satisfaction" value="not-satisfied">
+  
+  <label for="improvement">
+    Improvement Areas
+  </label>
+  <label for="design">
+    Design
+  </label>
+  <input type="checkbox" name="improvement" value="Design" id="design">
+  <label for="accessibility">
+    User Accessibility
+  </label>
+  <input type="checkbox" name="improvement" value="User Accessibility" id="accessibility"> 
+  <label for="functionality">
+    Functionality
+  </label>
+  <input type="checkbox" name="improvement" value="Functionality" id="functionality">
+  
+  <textarea placeholder="Enter Additional Comments"> </textarea>
+  
+<button type="submit" id="submit"> Submit </button>
+</form>
+</body>
+</html>
